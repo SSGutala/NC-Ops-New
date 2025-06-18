@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BarChart3, Clock, Users } from 'lucide-react';
-import OrderCard, { Order, PaymentStatus, OrderStatus } from './ncops-pos/src/OrderCard';
-import FilterBar from './FilterBar';
+import OrderCard, { Order, PaymentStatus, OrderStatus } from './src/OrderCard';
+import FilterBar from './src/FilterBar';
 
 // Sample data generator for demo purposes
 const generateSampleOrders = (): Order[] => {
